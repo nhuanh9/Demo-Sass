@@ -1,0 +1,16 @@
+.navbar {
+  background-color: orangered;
+  padding: 1rem;
+}
+.navbar ul {
+  list-style: none;
+}
+.navbar ul li {
+  color: blue;
+}
+.navbar li {
+  text-align: center;
+  margin: 1rem;
+}
+
+/*# sourceMappingURL=nest.css.map */

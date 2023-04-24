@@ -1,0 +1,26 @@
+/* CSS này sẽ được in vì nó được extend. */
+%message-shared {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+/* CSS này không được in vì nó không được extend. */
+%equal-heights {
+  display: flex;
+  flex-wrap: wrap;
+}
+.message {
+  @extend %message-shared;
+}
+.success {
+  @extend %message-shared;
+  border-color: green;
+}
+.error {
+  @extend %message-shared;
+  border-color: red;
+}
+.warning {
+  @extend %message-shared;
+  border-color: yellow;
+}

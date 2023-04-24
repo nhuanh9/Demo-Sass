@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* CSS này sẽ được in vì nó được extend. */
+.warning, .error, .success, .message {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+/* CSS này không được in vì nó không được extend. */
+.success {
+  border-color: green;
+}
+
+.error {
+  border-color: red;
+}
+
+.warning {
+  border-color: yellow;
+}
+
+/*# sourceMappingURL=extend.css.map */

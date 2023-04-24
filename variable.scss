@@ -1,0 +1,16 @@
+$color-primary: #ffff00; // Yellow
+$background-url: url("https://www.fodors.com/wp-content/uploads/2018/10/HERO_UltimateParis_Heroshutterstock_112137761.jpg");
+body {
+  background: $background-url;
+  color: $color-primary;
+}
+
+.nav {
+  background: $background-url;
+  border: 10px solid $color-primary;
+}
+
+.card {
+  background: $background-url;
+}
+
